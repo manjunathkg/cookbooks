@@ -10,4 +10,3 @@ version          '0.1.0'
  
 
 
-depends 'nginx',             '~> 2.4.4' 
