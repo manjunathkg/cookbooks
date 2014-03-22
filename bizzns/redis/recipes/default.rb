@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: base
+# Cookbook Name:: redis
 # Recipe:: default
 #
 # Copyright 2014, YOUR_COMPANY_NAME
