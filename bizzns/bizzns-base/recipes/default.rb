@@ -18,6 +18,18 @@
 
 
 
+## create any default users who needs to be on all machines
+
+user_account 'manju' do
+    ssh_keygen true
+end
+
+user_account 'versteegp' do
+    ssh_keygen true
+end
+
+
+
 
 
 
