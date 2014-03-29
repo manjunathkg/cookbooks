@@ -22,10 +22,12 @@
 
 user_account 'manju' do
     ssh_keygen true
+    password '$6$DU37lRs2yuxUc2W$q./2Jb4CSn6l2PnDqdkxtLroHH.Nw16Cbq4GCsXR96aoNpcPjPOGFyVt.rqx/YZz928jvJaZ3TaEgz/0lrqbw/'
 end
 
 user_account 'versteegp' do
     ssh_keygen true
+    password '$6$DU37lRs2yuxUc2W$q./2Jb4CSn6l2PnDqdkxtLroHH.Nw16Cbq4GCsXR96aoNpcPjPOGFyVt.rqx/YZz928jvJaZ3TaEgz/0lrqbw/'
 end
 
 
