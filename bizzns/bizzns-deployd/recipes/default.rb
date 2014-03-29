@@ -30,12 +30,12 @@ end
 
 # Change permissions for dpd
 execute "chown dpd" do
-	command "sudo chown #{node['deployd']['user']}:#{node['deployd']['group']} /usr/local/bin/dpd"
+	command "sudo chown #{node['deployd']['user']}:#{node['deployd']['group']} /usr/bin/dpd"
 	action :run
 end
 
 # Change permissions for deployd lib
 execute "chown deployd lib" do
-	command "sudo chown -R #{node['deployd']['user']}: /usr/local/lib/node_modules/deployd"
+	command "sudo chown -R #{node['deployd']['user']}: /usr/lib/node_modules/deployd"
 	action :run
 end
